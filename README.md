@@ -451,7 +451,7 @@ This project is licensed under the **MIT License**.
 
 ## 👨‍💻 Author
 
-**Prasad Kothakotla**
+**Kothakotla Devi Prasad**
 
 GitHub:
 https://github.com/prasadkothakotla
