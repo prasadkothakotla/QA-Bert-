@@ -47,7 +47,8 @@ class BertQAEngine:
             print(f"Loading BERT QA model from Hugging Face: {self.model_id}")
 
             tokenizer = AutoTokenizer.from_pretrained(
-                self.model_id
+                self.model_id,
+               clean_up_tokenization_spaces=True
             )
 
             model = AutoModelForQuestionAnswering.from_pretrained(
