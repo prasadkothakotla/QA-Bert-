@@ -6,7 +6,7 @@ An AI-powered Document Question Answering web application built using **FastAPI,
 
 ## 📸 Application Screenshot
 
-![AI Document Question Answering System](./images/Homepage.png)
+![QA-Bert](qa-system/images/Homepage.png)
 
 ---
 
