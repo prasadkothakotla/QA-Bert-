@@ -379,13 +379,13 @@ Bidirectional Encoder Representations from Transformers
 
 The React frontend is deployed using:
 
-[Vercel](https://qa-bert-rfkt.vercel.app/)
+[AWS(Amplify)](https://main.d2l912lojonw5h.amplifyapp.com/)
 
 ### Backend
 
 The FastAPI backend is deployed using:
 
-[Render](https://qa-bert-5.onrender.com)
+[AWS(ECS)](https://d2l227h8bdbb3u.cloudfront.net)
 
 ### Model
 
