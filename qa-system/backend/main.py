@@ -14,7 +14,7 @@ app = FastAPI(title="Document QA API")
 # Once deployment is confirmed, this can be restricted to your Vercel domain.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://main.d2l912lojonw5h.amplifyapp.com"],
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
