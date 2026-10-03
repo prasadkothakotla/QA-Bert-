@@ -1,7 +1,7 @@
 // Use IPv4 explicitly: on some Windows setups `localhost` resolves to IPv6
 // first while Uvicorn is only listening on 127.0.0.1, causing connection resets.
 // VITE_API_URL lets deployments point the UI at a remote API without edits.
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
+const BASE_URL = import.meta.env.VITE_API_URL || 'http://3.26.220.27:8000'
 
 async function handle(res) {
   if (!res.ok) {
